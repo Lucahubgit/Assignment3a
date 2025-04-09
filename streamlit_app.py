@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+st.title(":blue[Players stats]")
+
 # List creation
 player=["Barella", "Lukaku", "Cuadrado", "Orsolini", "Locatelli"]
 goals=[3, 11, 0, 11, 1]
@@ -11,7 +13,6 @@ distance=[12, 9, 8, 10, 6]
 pass_accuracy=[86, 72, 84, 73, 89]
 
 # Dataframe creation
-st.title(":blue[Players dataframe]")
 player_dataframe={
     "player": player,
     "goals_scored": goals,
